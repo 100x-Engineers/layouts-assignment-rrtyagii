@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     fontFamily:{
       'Inter': ['Inter', 'sans-serif'],
+      'Chirp': ['Chirp', 'sans'],
     },
     extend: {
       backgroundImage:{
@@ -40,11 +41,13 @@ module.exports = {
         "neutral-950": "#0a0a0a", 
         "neutral-1000": "#000000",
         "gray":"rgba(255,255,255,0.2)",
+        "secondary-gray":"rgba(255, 255, 255, 0.60)", 
         'custom-stroke': 'var(--stroke, rgba(29, 155, 240, 0.24))',
         'custom-gray': 'lightgray',
       },
       width:{
         '15': '3.625rem',
+        '22.5rem':'22.5rem',
         '24.375rem': '24.375rem',
         '30.125':'30.125rem',
         '32rem':'32rem',
