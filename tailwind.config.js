@@ -46,6 +46,7 @@ module.exports = {
         "secondary-gray":"rgba(255, 255, 255, 0.60)", 
         'custom-stroke': 'var(--stroke, rgba(29, 155, 240, 0.24))',
         'custom-gray': 'lightgray',
+        'red-error' : "#8B141A"
       },
       width:{
         '15': '3.625rem',
