@@ -8,6 +8,11 @@ module.exports = {
       'Chirp': ['Chirp', 'sans'],
     },
     extend: {
+      strokeWidth: ['responsive', 'hover', 'focus'],
+      stroke: ['responsive', 'hover', 'focus'],
+      strokeWidth:{
+        '1.5': '1.5px',
+      },
       backgroundImage:{
         'user-avatar':"url(/public/images/user-avatar.svg)",
       },
