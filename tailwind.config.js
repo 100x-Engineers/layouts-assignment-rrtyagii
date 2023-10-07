@@ -10,9 +10,6 @@ module.exports = {
     extend: {
       backgroundImage:{
         'user-avatar':"url(/public/images/user-avatar.svg)",
-        'search-default':'url(/public/images/dark-theme-search-default.svg)',
-        'search-selected':'url(/public/images/selected-search-default.svg)',
-        'battery-wifi-mobile': 'url(/public/images/battery-signal-wifi.svg)',
       },
       backgroundPosition: {
         'custom-position': '50%',
