@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+</head>
+<body class="w-24.375rem shrink-0">
+    <header class="flex flex-col bg-neutral-1000 shrink-0 w-24.375rem">
+        <section id="time-icons" class="flex flex-row w-24.375rem h-11 justify-end items-center shrink-0 gap-14.66288rem pt-0.875rem pb-3 px-1.24338rem text-neutral-50">
+            <time class="text-center font-Inter text-sm font-bold leading-5 tracking-[-0.01031rem] w-[3.375rem]">9:41</time>
+            <img class="w-[4.1875rem] h-[0.71875rem] shrink-0" src="/public/images/battery-signal-wifi.svg" alt="Battery and Signal">
+        </section>
+    </header>
+
+    <main class="flex flex-col bg-neutral-1000 shrink-0 w-24.375rem h-54.25rem px-4 items-start">
+        <section class="flex py-3 justify-between items-center self-stretch">
+            <div class="flex items-center gap-5">
+                <img class="w-6 h-6" src="/public/images/profile-edit-1-arrow-left.svg" alt="">
+                <div class="text-neutral-50 font-bold font-Inter text-base leading-normal">
+                    Edit Profile
+                </div>
+            </div>
+            <button class="bg-neutral-50 shadow-lc backdrop-blur-2xl flex justify-center items-center py-2 px-5 gap-2.5 rounded-4xl w-[4.625em] h-[2.0625rem] hover:bg-neutral-300">
+                <div class="text-neutral-1000 text-center font-Inter font-bold text-sm">
+                    Save
+                </div>
+            </button>
+        </section>
+
+        <section class="relative">
+            <figure class="h-[9.375rem] flex-shrink-0 bg-cover bg-no-repeat bg-custom-position">
+                <img src="/public/images/profile-cover.svg" alt="profile-cover">
+            </figure>
+        
+            <!-- Icons container -->
+            <div class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-2">
+                <img class="w-6 h-6 p-1 bg-edit-photos-bg rounded-[62.5rem]" src="/public/images/profile-edit-1-material-symbols-add-a-photo-outline.svg" alt="Edit Icon" />
+                <img class="w-6 h-6 p-1 bg-edit-photos-bg rounded-[62.5rem]" src="/public/images/create-account-1-signup-close.svg" alt="Signup Close Icon" />
+            </div>
+        </section>
+        
+        <article class="relative ml-5 mt-[-4.6875rem] flex justify-center items-center w-20 h-20">
+            <figure class="absolute top-0 left-0 w-20 h-20 shrink-0 rounded-12.5rem border-4 border-neutral-1000 bg-cover bg-no-repeat bg-custom-gray bg-custom-position">
+                <img class="w-20 h-20" src="/public/images/user-avatar.svg" alt="User Avatar" />
+            </figure>
+            <img class="w-6 h-6 z-10 p-1 bg-edit-photos-bg rounded-[62.5rem]" src="/public/images/profile-edit-1-material-symbols-add-a-photo-outline.svg" alt="Edit Icon" />
+        </article>
+                
+        <form class="flex flex-col gap-5 self-stretch items-start mt-6">
+
+            <fieldset class="py-4 px-3 items-center gap-2.5 rounded-md border border-solid border-neutral-500 group focus-within:border-twitter-blue-default my-">
+                <legend class="text-neutral-500 font-medium font-Inter text-xs group-focus-within:text-twitter-blue-default">
+                    <div class="px-1">
+                        Name
+                    </div>
+                </legend>
+                <div class="flex justify-around">
+                    <div class="w-[20.9rem] peer font-normal font-Inter text-sm text-neutral-50 border-none bg-transparent focus: outline-none placeholder:text-neutral-50">
+                        aarushe reddy
+                    </div>
+                    
+                </div>
+            </fieldset>
+
+            <fieldset class="py-4 px-3 items-center gap-2.5 rounded-md border border-solid border-neutral-500 group focus-within:border-twitter-blue-default h-32">
+                <legend class="text-neutral-500 font-medium font-Inter text-xs group-focus-within:text-twitter-blue-default">
+                    <div class="px-1">
+                        Bio
+                    </div>
+                </legend>
+                <div class="flex-grow basis-0 shrink-0">
+                    <div class="w-[20.9rem] peer font-normal font-Inter text-sm text-neutral-50 border-none bg-transparent focus: outline-none placeholder:text-neutral-500">
+                    Digital Goodies Team - Web & Mobile UI/UX development; Graphics; Illustrations
+                </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="py-4 px-3 items-center gap-2.5 rounded-md border border-solid border-neutral-500 group focus-within:border-twitter-blue-default ">
+                <legend class="text-neutral-500 font-medium font-Inter text-xs group-focus-within:text-twitter-blue-default">
+                    <div class="px-1">
+                        Location
+                    </div>
+                </legend>
+                <div class="flex justify-around">
+                    <input class="w-[20.9rem] peer font-normal font-Inter text-xl text-neutral-100 border-none bg-transparent focus: outline-none placeholder:text-neutral-500" type="text" placeholder="Location">
+                </div>
+            </fieldset>
+
+
+            <fieldset class="py-4 px-3 items-center gap-2.5 rounded-md border border-solid border-neutral-500 group focus-within:border-twitter-blue-default ">
+                <legend class="text-neutral-500 font-medium font-Inter text-xs group-focus-within:text-twitter-blue-default">
+                    <div class="px-1">
+                        Website
+                    </div>
+                </legend>
+                <div class="flex justify-around">
+                    <input class="w-[20.4rem] peer font-normal font-Inter text-xl text-neutral-100 border-none bg-transparent focus: outline-none placeholder:text-neutral-500" type="text" placeholder="Website">
+                </div>
+            </fieldset>
+
+        </form>
+    </main>
+</body>
+</html>
